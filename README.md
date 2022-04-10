@@ -43,7 +43,7 @@ A lista:
     > JOptionPane.showMessageDialog(popUp, $0 );  
 
 + popScanString: Argumento de pop up para entrada de dados tipo string:
-    > Integer.JOptionPane.showInputDialog(popUp, $0 );  
+    > JOptionPane.showInputDialog(popUp, $0 );  
 
 + popScanInt: Argumento de pop up para entrada de dados tipo int:
     > Integer.parseInt(JOptionPane.showInputDialog(popUp, $0 ));  
