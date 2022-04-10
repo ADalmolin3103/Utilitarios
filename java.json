@@ -90,7 +90,7 @@
 	"java: Decimal format formatador Sintaxe": {
 		"prefix": "dfForm",
 		"description": "Coloca a sintaxe para formatar um número em uma variável",
-		"body": "formatar.format($0);",
+		"body": "formatar.format($0)",
 	},
 
 	//Locale
