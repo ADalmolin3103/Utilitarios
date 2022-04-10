@@ -63,7 +63,7 @@
 	"java: PopUp de Input String": {
 		"prefix": "popScanString",
 		"description": "Cria uma saída de pop up para entrada de dados tipo string",
-		"body": "Integer.JOptionPane.showInputDialog(popUp, $0 );"
+		"body": "JOptionPane.showInputDialog(popUp, $0 );"
 	},
 	"java: PopUp de Input Int": {
 		"prefix": "popScanInt",
