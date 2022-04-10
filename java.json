@@ -26,23 +26,23 @@
 		"prefix": "buildScan",
 		"description": "inicia e fecha o mauricezão!",
 		"body": [
-			"Scanner maurice = new Scanner (System.in);",
+			"Scanner teclado = new Scanner (System.in);",
 			"$0",
-			"maurice.close();"
+			"teclado.close();"
 		]
 	},
 	"java: Scanner construtor com Locale": {
 		"prefix": "buildScanLoc",
 		"description": "inicia e fecha o mauricezão!",
 		"body": [
-			"Scanner maurice = new Scanner (System.in).useLocale(/*Locale.US*/$0);",
+			"Scanner teclado = new Scanner (System.in).useLocale(/*Locale.US*/$0);",
 			"$0",
-			"maurice.close();"
+			"teclado.close();"
 		]
 	},
 
 	//Pop up
-	"java: import de Swing (biblioteca de popup": {
+	"java: import de Swing (biblioteca de popup)": {
 		"prefix": "impPopUp",
 		"body": "import javax.swing.*;"
 	},
@@ -50,30 +50,30 @@
 		"prefix": "buildPop",
 		"description": "Faz o construtor do popUp",
 		"body": [
-			"JFrame karlos = new JFrame();",
+			"JFrame popUp = new JFrame();",
 			"$0",
 			"System.exit(0);"
 		],
 	},
 	"java: PopUp de msg sout": {
 		"prefix": "popPrint",
-		"description": "Cria um argumento de pop up pique sout",
-		"body": "JOptionPane.showMessageDialog(karlos, $0 );"
+		"description": "Cria uma saída aos moldes de sout",
+		"body": "JOptionPane.showMessageDialog(popUp, $0 );"
 	},
 	"java: PopUp de Input String": {
 		"prefix": "popScanString",
-		"description": "Argumento de pop up para entrada de dados tipo string",
-		"body": "Integer.JOptionPane.showInputDialog(karlos, $0 );"
+		"description": "Cria uma saída de pop up para entrada de dados tipo string",
+		"body": "Integer.JOptionPane.showInputDialog(popUp, $0 );"
 	},
 	"java: PopUp de Input Int": {
 		"prefix": "popScanInt",
-		"description": "Argumento de pop up para entrada de dados tipo int",
-		"body": "Integer.parseInt(JOptionPane.showInputDialog(karlos, $0 ));"
+		"description": "Cria uma saída de pop up para entrada de dados tipo int",
+		"body": "Integer.parseInt(JOptionPane.showInputDialog(popUp, $0 ));"
 	},
 	"java: PopUp de Input Double": {
 		"prefix": "popScanDouble",
-		"description": "Argumento de pop up para entrada de dados tipo Double",
-		"body": "Double.parseDouble(JOptionPane.showInputDialog(karlos, $0 ));"
+		"description": "Cria uma saída de pop up para entrada de dados tipo Double",
+		"body": "Double.parseDouble(JOptionPane.showInputDialog(popUp, $0 ));"
 	},
 
 	//Decimal Format
@@ -85,12 +85,12 @@
 	"java: Decimal Format Formatar": {
 		"prefix": "buildDf",
 		"description": "Declarar o construtor",
-		"body": "DecimalFormat marselo = new DecimalFormat($0);",
+		"body": "DecimalFormat formatar = new DecimalFormat($0);",
 	},
 	"java: Decimal format formatador Sintaxe": {
 		"prefix": "dfForm",
 		"description": "Coloca a sintaxe para formatar um número em uma variável",
-		"body": "marselo.format($0);",
+		"body": "formatar.format($0);",
 	},
 
 	//Locale
