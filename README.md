@@ -1,2 +1,3 @@
-# Utilit-rios
-Utilitários para programação &lt;3
+# Utilitarios
+Utilitários para programação <3
+Aqui Java.json tem os snippets, com a seguinte sintaxe:
