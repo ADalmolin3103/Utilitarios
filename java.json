@@ -15,11 +15,11 @@
 
 	//Scanner
 	//Scanner com Locale existe. buildScanLoc
-	"java: Scanner Import": {
-		"prefix": "impScan",
+	"java: util Import": {
+		"prefix": "impUtil",
 		"description": "importa o Scanner",
 		"body": [
-			"import java.util.Scanner;"
+			"import java.util.*;"
 		]
 	},
 	"java: Scanner construtor": {
